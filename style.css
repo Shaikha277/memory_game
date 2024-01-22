@@ -1,0 +1,36 @@
+body {
+  justify-content: center;
+  margin: 0;
+  background: white;
+  display: block;
+}
+#h1 {
+  display: inline-flex;
+}
+.zero {
+  background-color: blue;
+}
+.one {
+  background-color: yellow;
+}
+.CARDS {
+  border: 1px solid black;
+
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+/* #button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.play {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
