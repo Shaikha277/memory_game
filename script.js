@@ -3,32 +3,37 @@ const CARDS = document.querySelectorAll(".CARDS")
 let cardsAlreadyClicked = []
 
 const cardClick = (evt) => {
+  let notClick = false
+  if (notClick === true) {
+    return
+  }
   const clickedCard = evt.target
   const cardColor = clickedCard.getAttribute("color")
-  cardsAlreadyClicked.push(cardColor)
+  // get the id of the card
+  const cardId = clickedCard.getAttribute("id")
+  cardsAlreadyClicked.push(cardColor, cardId)
+  clickedCard.classList.add(cardColor)
   console.log(cardsAlreadyClicked)
   // check if there are two cards in the array
   const numberOfCardsClicked = cardsAlreadyClicked.length
 
   //if there are two cards in the array
-  if (numberOfCardsClicked === 2) {
+  if (numberOfCardsClicked === 4) {
+    notClick = true
     //check if the values are the same:
-    if (cardsAlreadyClicked[0] === cardsAlreadyClicked[1]) {
+    if (cardsAlreadyClicked[0] === cardsAlreadyClicked[2]) {
       console.log("ckl")
       cardsAlreadyClicked = []
-    }
-    //get card 1 from the array
-    const cardOne = cardsAlreadyClicked[0]
-    //get card 2 from the array
-    const cardTwo = cardsAlreadyClicked[1]
-    //if card 1 equals to card 2
-    if (cardOne === cardTwo) {
-      //console.log("match")
-      console.log("match")
-    }
-    if (cardOne !== cardTwo) {
+    } else {
       console.log("different")
-      cardsAlreadyClicked = []
+      const cardOne = document.getElementById(cardsAlreadyClicked[1])
+      const cardTwo = document.getElementById(cardsAlreadyClicked[3])
+      setTimeout(() => {
+        cardOne.classList.remove(cardsAlreadyClicked[0])
+        cardTwo.classList.remove(cardsAlreadyClicked[2])
+        cardsAlreadyClicked = []
+        notClick = false
+      }, "1000")
     }
   }
 }

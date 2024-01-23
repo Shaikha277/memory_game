@@ -1,28 +1,29 @@
 body {
   justify-content: center;
   margin: 0;
-  background: white;
+  background: rgb(16, 16, 16);
   display: block;
+}
+#playerText {
+  color: #ccc;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "sofia", sans-serif;
+  text-align: center;
+  font-size: xxx-large;
 }
 #h1 {
   display: inline-flex;
 }
 
 .CARDS {
-  border: 1px solid black;
+  border: 6px solid rgb(218, 222, 221);
+  border-radius: 30%;
 
+  /* display: ; */
   width: 100px;
-  height: 100px;
+  height: 140px;
   display: inline;
-}
-.card3 {
-  background-color: aqua;
-}
-.card5 {
-  background-color: red;
-}
-.card0 {
-  background-color: yellow;
 }
 
 .card {
@@ -44,34 +45,50 @@ body {
   height: 100px;
   display: inline;
 } */
-
-/* #button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-.play {
-  display: flex;
-  justify-content: center;
-}
-#container {
-  grid-template-columns: repeat(5, 100px);
+.buttonContainer {
   display: grid;
   justify-content: center;
+
+  margin-bottom: 30px;
+}
+#PLAY {
+  /* box-shadow: 0 12px 16px 0, 0 17px 50px 0; */
+  font-family: "Audiowide", sans-serif;
+  font-size: 30px;
+  padding: 5px 10px;
+}
+#PLAY:hover {
+  background-color: rgb(171, 171, 171);
+  /* border-radius: 40%; */
+  /* justify-content: ; */
+  /* border-radius: 12px; */
+  font-size: 30px;
+  box-shadow: 0 12px 16px 0 rgba(255, 255, 0, 0.466),
+    0 17px 50px 0 rgba(247, 162, 4, 0.468);
+}
+#container {
+  grid-template-columns: repeat(4, 100px);
+  display: grid;
+  justify-content: center;
+  gap: 30px;
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(0, 30, 166);
 }
-/* .red {
+.red {
   background-color: red;
 }
-.pink {
-  background-color: rgb(255, 85, 113);
-}
+
 .green {
-  background-color: green;
+  background-color: rgb(0, 171, 23);
+}
+.pink {
+  background-color: rgb(255, 3, 158);
 }
 .yellow {
   background-color: yellow;
-} */
+}
+.purple {
+  background-color: rgb(255, 72, 0);
+}
