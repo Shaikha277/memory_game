@@ -53,7 +53,7 @@ body {
 }
 #PLAY {
   /* box-shadow: 0 12px 16px 0, 0 17px 50px 0; */
-  font-family: "Audiowide", sans-serif;
+  font-family: "Trirong", serif;
   font-size: 30px;
   padding: 5px 10px;
 }
@@ -63,8 +63,8 @@ body {
   /* justify-content: ; */
   /* border-radius: 12px; */
   font-size: 30px;
-  box-shadow: 0 12px 16px 0 rgba(255, 255, 0, 0.466),
-    0 17px 50px 0 rgba(247, 162, 4, 0.468);
+  box-shadow: 0 12px 16px 0 rgba(255, 111, 0, 0.466),
+    0 17px 50px 0 rgba(196, 128, 4, 0.468);
 }
 #container {
   grid-template-columns: repeat(4, 100px);

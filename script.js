@@ -1,6 +1,12 @@
 const CARDS = document.querySelectorAll(".CARDS")
 // have an array to keep track of cards that have been clicked
 let cardsAlreadyClicked = []
+const winnig = () => {
+  if (winarray.length === 6) {
+    alert("you wiiiiiin!!!!!!!!")
+  }
+}
+let winarray = []
 
 const cardClick = (evt) => {
   let notClick = false
@@ -22,7 +28,9 @@ const cardClick = (evt) => {
     notClick = true
     //check if the values are the same:
     if (cardsAlreadyClicked[0] === cardsAlreadyClicked[2]) {
-      console.log("ckl")
+      console.log("nayef")
+      winarray.push(1)
+      winnig()
       cardsAlreadyClicked = []
     } else {
       console.log("different")
