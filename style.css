@@ -7,12 +7,7 @@ body {
 #h1 {
   display: inline-flex;
 }
-.zero {
-  background-color: blue;
-}
-.one {
-  background-color: yellow;
-}
+
 .CARDS {
   border: 1px solid black;
 
@@ -20,6 +15,35 @@ body {
   height: 100px;
   display: inline;
 }
+.card3 {
+  background-color: aqua;
+}
+.card5 {
+  background-color: red;
+}
+.card0 {
+  background-color: yellow;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .CARD {
+  border: 1px solid black;
+
+  width: 100px;
+  height: 100px;
+  display: inline;
+} */
 
 /* #button {
   display: flex;
@@ -30,7 +54,24 @@ body {
   display: flex;
   justify-content: center;
 }
-.container {
-  display: flex;
+#container {
+  grid-template-columns: repeat(5, 100px);
+  display: grid;
   justify-content: center;
 }
+
+.blue {
+  background-color: blue;
+}
+/* .red {
+  background-color: red;
+}
+.pink {
+  background-color: rgb(255, 85, 113);
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+} */
