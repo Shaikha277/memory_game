@@ -10,6 +10,10 @@
 
 ---
 
+## A trello board was used to keep track of development progress and can be viewed [here]()
+
+## The project itself was deployed and can be viewed [here]()
+
 ### **_How to Get Started_**
 
 - You'll be working in the `index.html`,`script.js`and `style.css` files.
@@ -26,3 +30,9 @@
 - level 2 is waiting for you
 - touch `index2.html` and start your creativity.
 - Style it up!
+
+## Credits
+
+w3schools : [w3schools Search](https://www.w3schools.com/)
+MDN web doc [MDN Search](https://developer.mozilla.org/en-US/)
+Stack overflow [stack Search](https://stackoverflow.com/)
