@@ -1,6 +1,6 @@
 # FLASHCARDS
 
-##By: Shaikha Abdulla
+## By: Shaikha Abdulla
 
 ### **_Description_**
 
@@ -12,5 +12,6 @@
 
 ### create a pair of 12 cards
 
-#####if the player click on one of the cards it flips back. till flipping the another card and if they don't match then return and choose another card
-#####if the player matched 2 cards then it will remain flipped
+#### if the player click on one of the cards it flips back. till flipping the another card and if they don't match then return and choose another card
+
+#### if the player matched 2 cards then it will remain flipped
