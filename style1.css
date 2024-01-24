@@ -1,11 +1,11 @@
 body {
   justify-content: center;
   margin: 0;
-  background: rgba(67, 55, 55, 0.721);
+  background: rgba(96, 80, 80, 0.831);
   display: block;
 }
 #playerText {
-  color: #cecece90;
+  color: #ccc;
   /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
   /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-family: "sofia", sans-serif;
@@ -21,14 +21,14 @@ body {
   border-radius: 30%;
 
   /* display: ; */
-  width: 100px;
-  height: 140px;
+  width: 90px;
+  height: 120px;
   display: inline;
 }
 
 .card {
   width: 100px;
-  height: 100px;
+  height: 80px;
   background-color: #ccc;
   display: flex;
   align-items: center;
@@ -56,7 +56,6 @@ body {
   font-family: "Trirong", serif;
   font-size: 30px;
   padding: 5px 10px;
-  border-radius: 15px;
 }
 #PLAY:hover {
   background-color: rgb(171, 171, 171);
@@ -68,10 +67,11 @@ body {
     0 17px 50px 0 rgba(196, 128, 4, 0.468);
 }
 #container {
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: repeat(6, 100px);
   display: grid;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .blue {
@@ -92,4 +92,22 @@ body {
 }
 .orange {
   background-color: rgb(255, 72, 0);
+}
+.lightB {
+  background-color: aqua;
+}
+.purple {
+  background-color: blueviolet;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: #ccc;
+}
+.brown {
+  background-color: rgb(134, 53, 0);
+}
+.olive {
+  background-color: olive;
 }
