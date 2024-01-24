@@ -10,9 +10,9 @@
 
 ---
 
-## A trello board was used to keep track of development progress and can be viewed [here]()
+#### A trello board was used to keep track of development progress and can be viewed [here]()
 
-## The project itself was deployed and can be viewed [here]()
+#### The project itself was deployed and can be viewed [here]()
 
 ### **_How to Get Started_**
 
