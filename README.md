@@ -12,8 +12,17 @@
 
 ### **_How to Get Started_**
 
-### create a pair of 12 cards
+- You'll be working in the `index.html`,`script.js`and `style.css` files.
+- create a pair of 12 cards
+- A user should be able to click on the cards to flip them back
+- add 6 different colors
+- check if they match keep
+- if they don't flip back
+- set Timeout
+- Detect winner: stop game and declare the winner if the player gets all 6 matching cards.
 
-#### if the player click on one of the cards it flips back. till flipping the another card and if they don't match then return and choose another card
+## Bonuses
 
-#### if the player matched 2 cards then it will remain flipped
+- level 2 is waiting for you
+- touch `index2.html` and start your creativity.
+- Style it up!
