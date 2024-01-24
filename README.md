@@ -2,6 +2,8 @@
 
 ## By: Shaikha Abdulla
 
+![FLASH CARDS](https://articulate-heroes.s3.amazonaws.com/uploads/rte/osxtqrbw_Memory%20Game%20Template_Richard%20Mulcahy_gif.gif)
+
 ### **_Description_**
 
 #### The player turns over 2 cards. If the Colors match, the player keeps the cards and tries again for another match .If they do not match the cards are turned over again .
