@@ -33,6 +33,8 @@
 
 ## Credits
 
-w3schools : [w3schools Search](https://www.w3schools.com/)
-MDN web doc [MDN Search](https://developer.mozilla.org/en-US/)
+## w3schools : [w3schools Search](https://www.w3schools.com/)
+
+## MDN web doc [MDN Search](https://developer.mozilla.org/en-US/)
+
 Stack overflow [stack Search](https://stackoverflow.com/)
