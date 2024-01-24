@@ -2,7 +2,7 @@
 
 ## By: Shaikha Abdulla
 
-![FLASH CARDS](https://articulate-heroes.s3.amazonaws.com/uploads/rte/osxtqrbw_Memory%20Game%20Template_Richard%20Mulcahy_gif.gif)
+[Flash Cards](https://articulate-heroes.s3.amazonaws.com/uploads/rte/osxtqrbw_Memory%20Game%20Template_Richard%20Mulcahy_gif.gif)
 
 ### **_Description_**
 
