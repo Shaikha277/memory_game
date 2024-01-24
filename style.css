@@ -51,14 +51,14 @@ body {
 
   margin-bottom: 30px;
 }
-#PLAY {
+.PLAY a {
   /* box-shadow: 0 12px 16px 0, 0 17px 50px 0; */
   font-family: "Trirong", serif;
   font-size: 30px;
   padding: 5px 10px;
   border-radius: 15px;
 }
-#PLAY:hover {
+.PLAY:hover {
   background-color: rgb(171, 171, 171);
   /* border-radius: 40%; */
   /* justify-content: ; */
