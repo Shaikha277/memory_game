@@ -36,7 +36,7 @@ body {
 }
 
 .buttonContainer {
-  display: grid;
+  display: flex;
   justify-content: center;
 
   margin-bottom: 30px;
@@ -58,7 +58,7 @@ body {
 }
 #container {
   grid-template-columns: repeat(4, 100px);
-  display: grid;
+  display: flex;
   justify-content: center;
   gap: 30px;
 }
