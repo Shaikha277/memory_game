@@ -1,7 +1,7 @@
 const CARDS = document.querySelectorAll(".CARDS")
 // have an array to keep track of cards that have been clicked
 let cardsAlreadyClicked = []
-const button = document.querySelector(".PLAY")
+const button = document.querySelector("#PLAY")
 const winnig = () => {
   if (winarray.length === 6) {
     alert("WINNER WINNER CHICKEN DINNER!")
