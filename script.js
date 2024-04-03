@@ -9,6 +9,7 @@ const winnig = () => {
   }
 }
 let winarray = []
+// let Array=[]
 
 const cardClick = (evt) => {
   let notClick = false
@@ -51,88 +52,21 @@ const cardClick = (evt) => {
 CARDS.forEach((card) => {
   card.addEventListener("click", cardClick)
 })
+function playAgain(){
+  if (winarray.length === 6 ){
+     winarray = [] 
+     CARDS.forEach((card) => {
+      card.classList.remove("blue", "red", "yellow", "pink", "green", "orange");
+    });
+  }
+  
+}
+function reset(){
+  
+    winarray=[]
+    CARDS.forEach((card) => {
+      card.classList.remove("blue", "red", "yellow", "pink", "green", "orange");
+    });
 
-//const CARDS = document.querySelector(".container")
-// CARDS.addEventListener("click", () => {
-//   console.log("clicked")
-// })
 
-// const CARD = [""]
-// const copyCards = [""]
-// let matching = true
-// let firstCard, SecondCard
-
-// const colors = ["red", "blue", "yellow", "purple", "green"]
-// function matching(array) {
-//   let counter = array.length
-//   while (counter > 0) {
-//     let
-//   }
-// }
-// console.log(blacked)
-//let arrayCardId = []
-//CARDS.sort(() => Math.random() - 0.5)
-// const CARDS = document.querySelectorAll(".CARDS")
-//let CARDSarray = []
-// for (let i = 0; i < array.length; i++) {
-//copyCards.push(CARD[i])
-
-//   CARDS[5].addEventListener("click", flipCard)
-//   function flipCard() {
-//     document.querySelector("#five.CARDS")
-//     CARDS[5].classList.add("card5")
-//     console.log("clicked")
-//   }
-//   CARDS[3].addEventListener("click", flip)
-//   function flip() {
-//     document.querySelector("#three.CARDS")
-//     CARDS[3].classList.add("card3")
-//     console.log("clicked")
-//   }
-//   CARDS[i].addEventListener("click", () => {
-//     document.querySelectorAll(".CARDS")
-//     CARDS[i].classList.add("card0")
-//     console.log("clicked")
-//   })
-// }
-
-// {
-//CARDS[i].classList.add("one")
-// const logArrayElements = (element, index[0])
-// console.log(`a[${index}]=${element}`)
-// array.forEach((element) => {})
-// console.log(logArrayElements)
-//CARD.forEach((card) => {
-//copyCards.push(card)
-// }
-
-// CARDS.classList.add("one")
-// const change = () => {
-//   document.querySelector("#zero.CARDS").classList.toggle("white")
-// }
-// const color = () => {
-//   document.querySelector("#one.CARDS").classList.toggle("white")
-// }
-
-// const zero = document.querySelectorAll("#zero")
-// // const one = document.querySelector("#one.CARDS")
-// // // if (){
-
-// // }
-// // zero.addEventListener("click", change)
-// // one.addEventListener("click", color)
-// zero.addEventListener("click", () => {
-//   console.log("clicked")
-//   zero.classList.add("zero")
-//   //   if (change == true) {
-//   //   }
-//   //   //CARDS.classList("toggle")
-// })
-
-// one.addEventListener("click", () => {
-//   console.log("clicked")
-//   one.classList.add("one")
-// })
-// if (clicked == true) {
-//   one.style.backgroundColor = "white"
-//
+}
