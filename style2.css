@@ -1,8 +1,8 @@
 body {
   justify-content: center;
   margin: 0;
- background-color: #0b0a18;
-  display:flexbox ;
+  background-color: #0b0a18;
+  display: flexbox;
 }
 #playerText {
   color: #ffffff;
@@ -67,16 +67,20 @@ button:hover {
 .buttonContainer {
   display: flex;
   justify-content: center;
-justify-content: space-evenly;
+  justify-content: space-evenly;
   margin-bottom: 30px;
   /* background-color: #cccccc00; */
 }
 
 #container {
-  grid-template-columns: repeat(6, 100px);
+  grid-template-columns: repeat(5, 100px);
   display: grid;
   justify-content: center;
   gap: 30px;
+}
+#PLAY a {
+  text-decoration: none;
+  color: inherit; 
 }
 
 .blue {

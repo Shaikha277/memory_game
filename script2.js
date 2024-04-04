@@ -50,3 +50,21 @@ const cardClick = (evt) => {
 CARDS.forEach((card) => {
   card.addEventListener("click", cardClick)
 })
+function playAgain(){
+  if (winarray.length === 6 ){
+     winarray = [] 
+     CARDS.forEach((card) => {
+      card.classList.remove("blue", "red", "yellow", "pink", "green", "orange");
+    });
+  }
+  
+}
+function reset(){
+  
+    winarray=[]
+    CARDS.forEach((card) => {
+      card.classList.remove("blue", "red", "yellow", "pink", "green", "orange");
+    });
+
+
+}
