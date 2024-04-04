@@ -76,6 +76,7 @@ button:hover {
   grid-template-columns: repeat(5, 100px);
   display: grid;
   justify-content: center;
+  margin: 15px;
   gap: 30px;
 }
 #PLAY a {

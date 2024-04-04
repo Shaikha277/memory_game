@@ -80,7 +80,8 @@ justify-content: space-evenly;
 
 #container {
   grid-template-columns: repeat(4, 100px);
-  display: grid;
+  display:grid;
+  margin: 15px;
   justify-content: center;
   gap: 30px;
 }
